@@ -1,0 +1,13 @@
+.order-summary{
+    padding: 15px;
+    border: 1px solid red;
+  }
+  
+  span{
+      display: block;
+      width: 80%;
+  }
+
+  span:last-child{
+    width: 20%;
+  }

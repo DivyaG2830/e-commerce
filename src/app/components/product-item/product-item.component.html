@@ -1,0 +1,12 @@
+
+<div class="card text-center h-100" style="width: 18rem;">
+    <img [src]="product.image" alt="..." [routerLink]="'/products/'+ product.id" class="image">
+    <div class="card-body">
+      <p class="card-text">{{product.name}}</p>
+      <p class="card-text">{{product.brand}}</p>
+      <p class="card-text text-danger">Price: {{product.price | currency}}</p>
+    </div>
+    <div class="card-footer border-0">
+      <button type="button" label="Add to Cart" (click) ="addProductToCart()" class="btn btn-warning">Add to cart</button>
+    </div>
+  </div>

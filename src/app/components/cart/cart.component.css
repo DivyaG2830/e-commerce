@@ -1,0 +1,15 @@
+.image {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.subtotal {
+    font-weight: 600;
+    color: lightgreen;
+}
+
+.bi-trash3{
+    color: red;
+    cursor: pointer;
+}
